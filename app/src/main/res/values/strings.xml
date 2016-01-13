@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">JPLearning</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="name">Name</string>
+    <string name="split">:</string>
+    <string name="words">Words</string>
+    <string name="owner">Owner</string>
+
+    <string name="create_lesson">Create Lesson</string>
+    <string name="lesson">Lesson</string>
+    <string name="lesson_name">Lesson Name</string>
+    <string name="is_public">Is Public</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+</resources>
