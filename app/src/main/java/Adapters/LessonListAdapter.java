@@ -15,9 +15,6 @@ import java.util.ArrayList;
 
 import Models.LessonModel;
 
-/**
- * Created by Hano on 20/12/2015.
- */
 public abstract class LessonListAdapter extends ArrayAdapter<LessonModel> {
     Activity context = null;
     ArrayList<LessonModel> lessonList = null;
@@ -63,11 +60,11 @@ public abstract class LessonListAdapter extends ArrayAdapter<LessonModel> {
 
     protected abstract void onCheck();
 
-    public int getCheckCount(){
+    public int getCheckCount() {
         return checkCount;
     }
 
-    public void resetCheckCount(){
+    public void resetCheckCount() {
         checkCount = 0;
         onCheck();
     }
